@@ -32,5 +32,7 @@ public class AddSingleProjectWithCreated extends BaseclassUtility {
 		System.out.println(projectName);
 		String msg=res.jsonPath().get("msg");
 		System.out.println(msg);
+		String status=res.jsonPath().get("status");
+		System.out.println(status);
 	}
 }

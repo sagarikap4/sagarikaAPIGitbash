@@ -8,6 +8,7 @@ public class ChangeProjectSatus {
 	{
 		System.out.println("msg");
 		System.out.println("git msg");
+		System.out.println("second msg");
 	}
 
 }
